@@ -1,0 +1,200 @@
+<html>
+    <head>
+        <title></title>
+		<link type="text/css" rel="stylesheet" href="style.css">
+        <style>
+            body{
+                background-color: skyblue;
+            }
+            #header{ background-color:#333333;
+	         text-align:center;
+			 color:white;
+			 width:100%;
+			 height:150px;
+	        }
+            #menu{
+		 	background-color:yellow;
+			 overflow:auto;
+			 margin:20px;
+			  border-radius:2px;
+			  position:relative;
+               height:30px;
+			   width:100%;
+		 }
+		 #menu li{
+		float:left;
+		 padding-left:30px;
+		 padding:15px;
+		 padding-right:10px;
+		 display:block;
+		 margin-top:-18px;
+		 }
+#outerbox
+{
+    width: 600px;
+	overflow: hidden;
+	margin: 60px;
+}
+#sliderbox
+{
+    position: relative;
+    width: 2400px;
+    animation-name: Jamal;
+    animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+#sliderbox img
+{
+    float: left;
+}
+@keyframes Jamal
+{
+	0%
+	{
+		left: 0px;
+	}
+	20%
+	{
+		left:0px;	
+	}
+	25%
+	{
+		left: -600px;
+	}
+	45%
+	{
+		left: -600px;
+	}
+	50%
+	{
+		left: -1200px;
+	}
+	70%
+	{
+		left: -1200px;
+	}
+	75%
+	{
+		left: -1800px;
+	}
+	95%
+	{
+		left: -1800px;
+	}
+	100%
+	{
+		left: -2400px;
+	}
+}
+#boxes{
+    width: 80%;
+    background-color:yellow;
+			 overflow:auto;
+			 margin:20px;
+			  border-radius:2px;
+			  position:relative;
+               height:200px;	
+			   margin-top:20px;	
+}
+#first-box{
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+}
+#second-box{
+    width: 260px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+}
+#third-box{
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+}
+#footer{ background-color:skyblue;
+	           width:100%;
+			   height:30px;
+			   text-align:center;
+			   clear:both;
+			   padding:10px;
+			   border-radius:10px;
+	       }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div id="logo">
+                <img src="adlogo.jpg" width="150px" height="150px"</img>
+            <!--</div>
+            <div id="banner">-->
+                <img src="igihe-banner-3.gif" width="850px" height="150px"</img>
+            </div>
+        </div>
+        <!--<div id="menu">
+            <ol>
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Services</li>
+                    <li>Contact us</li>
+                </ul>
+            </ol>
+        </div>-->
+		<div id=menus>
+			<table border="2" width="100%">
+				<tr align=center>
+					<td>Home</td>
+					<td>About us</td>
+					<td>Services</td>
+					<td>Contact us</td>
+				</tr>
+			</table>
+		</div>
+        <div id="content">
+            <div id="image-slide">
+                <div id="outerbox">
+						<div id="sliderbox">
+                            <img src="file:///E:/internship%20tasks/slide/1.jpg" height="300px" width="600px"/>
+							<img src="file:///E:/internship%20tasks/slide/2.jpg" height="300px" width="600px"/>
+							<img src="file:///E:/internship%20tasks/slide/3.jpg" height="300px" width="600px"/>
+							<img src="file:///E:/internship%20tasks/slide/4.jpg" height="300px" width="600px"/>
+                        </div>
+                </div>
+            </div>
+            <div id="boxe">
+				<table width="70%">
+					<tr>
+					<td><div id="second-box">
+                    <h1><u>Mission</u></h1>
+                    <p>kdkjfhsahfohsfdjakjfkjsajfi</br>oshdhfiohsdoifjiosdjifjiosdt</br>hisyourboyomyboyonthebeatrig</p></td>
+                </div>
+                <td><div id="second-box">
+                    <h1><u>Vision</u></h1>
+                    <p>kdkjfhsahfohsfdjakjfkjsajfios</br>hdhfiohsdoifjiosdjifjiosdthis</br>yourboyomyboyonthebeatrig</p></td>
+                </div>
+                <td><div id="third-box">
+                    <h1><u>Objectives</u></h1>
+                    <p>asklfjkjasdkfhsdifhieijdiohfdhk</br>fjdskjfkdsjfiifeijfidhfidkjfk</br>dsjfieihfioehfioheiofhi</p></td>
+                </div>
+									</table>
+            </div>
+            <div id="logos">
+				<table border=2 width="100%">
+					<tr align=center>
+					<td><img src="adlogo.jpg" width="150px" height="150px"</img></td>
+					<td><img src="adlogo.jpg" width="150px" height="150px"</img></td>
+					<td><img src="adlogo.jpg" width="150px" height="150px"</img></td>
+					<td><img src="adlogo.jpg" width="150px" height="150px"</img></td>
+					<td><img src="adlogo.jpg" width="150px" height="150px"</img></td>
+					</tr>
+				</table>
+            </div>
+        </div>
+        <div id="footer">
+            copyright &copy; on omar 2019
+        </div>
+    </body>
+</html>
